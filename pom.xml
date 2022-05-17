@@ -7,6 +7,18 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Sysfoo Demo App</name>
   <url>http://maven.apache.org</url>
+  	<repositories>
+    <repository>
+      <id>central</id>
+      <name>libs-release</name>
+      <url>http://ds2-virtualbox:8081/artifactory/libs-release-local</url>
+    </repository>
+    <repository>
+      <id>snapshots</id>
+      <name>libs-snapshot</name>
+      <url>http://ds2-virtualbox:8081/artifactory/libs-snapshot</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
